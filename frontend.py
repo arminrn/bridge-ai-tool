@@ -23,7 +23,7 @@ if uploaded_file is not None:
                 }
 
                 response = requests.post(
-                    "http://localhost:8000/analyze/",
+                    ""https://bridge-ai-tool.onrender.com/analyze/"",
                     files=files
                 )
 
