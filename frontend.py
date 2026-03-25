@@ -23,7 +23,7 @@ if uploaded_file is not None:
                 }
 
                 response = requests.post(
-                    "http://127.0.0.1:8000/analyze/",
+                    "http://localhost:8000/analyze/",
                     files=files
                 )
 
