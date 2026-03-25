@@ -12,8 +12,9 @@ from openai import AsyncOpenAI
 from dotenv import load_dotenv
 from pathlib import Path
 
-env_path = Path(__file__).parent / ".env"
-load_dotenv(dotenv_path=env_path)
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Create FastAPI app
 app = FastAPI(title="Bridge Inspection AI Tool")
